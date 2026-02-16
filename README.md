@@ -3,9 +3,6 @@
 This project consists of simulating a **pick and place application**, using the **UR5** robot, with the objective of **classifying objects by color**. 
 The project was implemented using **ROS Melodic**, furthermore I have used some tools like **MoveIt** for robot motion planning and **GAZEBO** as a simulation software. **OpenCV** was employed for developing the vision algorithm used for object color classification. All the code related to robot motion was written in **Python**.
 
-## Final project simulation
-https://github.com/JaviRG30/UR5_color_pick_and_place/assets/149961441/05b9753e-0fd9-4c23-b244-ab7096348142
-
 ## How to use
 ---
 ### Prerequisites
@@ -23,7 +20,7 @@ I will assume that your workspace is created in $HOME/catkin_ws and the source s
 Now, to obtain the repository in your workspace, you need to run the following commands:
 ```
 cd $HOME/catkin_ws/src
-git clone https://github.com/JaviRG30/UR5_color_pick_and_place.git
+git clone https://github.com/sabanezongo339-ctrl/UR5_color_pick_and_place
 cd ..
 catkin_make
 source $HOME/catkin_ws/devel/setup.bash
